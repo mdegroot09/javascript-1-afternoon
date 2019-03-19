@@ -8,13 +8,13 @@ let myName = "";
 
 //Create a variable called myAge that is a number data type
 
-var myAge = NaN;
+var myAge = 0;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-var lovesCode = boolean;
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -44,21 +44,25 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting = function newGreeting(name){
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+let finalGreeting = name => {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+
 
 //////////////////PROBLEM 10////////////////////
 
