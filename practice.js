@@ -44,7 +44,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting = function newGreeting(name){
+var newGreeting = function(name){
   return "Hello, " + name;
 }
 
@@ -62,7 +62,7 @@ let finalGreeting = name => {
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 10////////////////////
 
@@ -71,12 +71,17 @@ let finalGreeting = name => {
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = {
+  name: "Ginger",
+  color: "Gold",
+  age: 17,
+  goodBoy: false
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 11////////////////////
 
@@ -87,7 +92,15 @@ let finalGreeting = name => {
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(name){
+  if(name === "Steven"){
+    return "What is up Steven?";
+  } else if (name === "Bryan") {
+    return "Hey Bryan!";
+  } else {
+    return "Cool name, " + name;
+  }
+}
 
 //////////////////PROBLEM 12////////////////////
 
@@ -95,7 +108,7 @@ let finalGreeting = name => {
 // that will be numbers.
 // The add function should return the two parameters added together
 
-//Code Here
+
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
