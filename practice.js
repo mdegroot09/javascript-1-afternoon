@@ -2,13 +2,13 @@
 
 //Create a variable called myName that is a string data type
 
-let myName = "";
+let myName = "Mike";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-var myAge = 0;
+var myAge = 31;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -106,7 +106,7 @@ function nameCheck(name){
 // that will be numbers.
 // The add function should return the two parameters added together
 
-funtion add(num1, num2){
+function add(num1, num2){
   return num1 + num2;
 }
 
@@ -162,13 +162,13 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 15////////////////////
 
